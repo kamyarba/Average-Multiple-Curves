@@ -70,7 +70,7 @@ if plot:
         plt.legend(handles=[line_average, line_fill],fontsize=12,
            loc='best', shadow=False)
         
-        plt.xlim(left=-0.1)
+        plt.xlim(left=0)
         plt.ylim(bottom=0)
         plt.grid(True)
         
